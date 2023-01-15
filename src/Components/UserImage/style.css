@@ -1,0 +1,9 @@
+@import '../../globalStyles/styles.css';
+
+.user-image{
+    margin: 1rem;
+    width: 10rem;
+    height: 10rem;
+    object-fit: scale-down;
+    clip-path: circle();
+}

@@ -1,0 +1,13 @@
+@import '../../globalStyles/styles.css';
+
+.info{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 1rem 0 1rem 0;
+}
+.data{
+    display: flex;
+    font-size: 1em;
+    gap: 0.2rem;
+}

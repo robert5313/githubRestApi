@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+
+:root{
+    --baby-blue-eyes: #91c4f2ff;
+    --wild-blue-yonder: #8ca0d7ff;
+    --purple-mountain-majesty: #9d79bcff;
+    --purpureus: #a14da0ff;
+    --mardi-gras: #7e1f86ff;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main{
+    background-color: var(--baby-blue-eyes);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}

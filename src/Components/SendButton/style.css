@@ -1,0 +1,15 @@
+@import '../../globalStyles/styles.css';
+
+.button-send{
+    border: 1px solid var(--purple-mountain-majesty);
+    width: 10rem;
+    height: 1.5rem;
+    cursor: pointer;
+    border-radius: 2rem;
+    background-color: var(--purple-mountain-majesty);
+    transition: 0.5s ease;
+    color: #fff;
+}
+.button-send:hover{
+    border: 1px solid #fff;
+}

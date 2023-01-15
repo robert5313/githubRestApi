@@ -1,0 +1,24 @@
+@import '../../globalStyles/styles.css';
+
+.input-search{
+    border: 0;
+    display: flex;
+    text-align: center;
+    width: 15rem;
+    height: 1.5rem;
+    border-radius: 2rem;
+    margin: 1rem 0 0.5rem 0;
+    border: 1px solid var(--purple-mountain-majesty);
+    background-color: var(--purple-mountain-majesty);
+    color: #fff;
+
+}
+.input-search:focus{
+    outline: none;
+    border: 1px solid #fff;
+}
+
+::placeholder{
+    color: #fff;
+    opacity: 1;
+}
